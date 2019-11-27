@@ -1,9 +1,9 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-function App () {
-  const count = 0
+function App() {
+  const count = 0;
 
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App () {
         <p>
           Edit <code>src/App.js</code> and save to reload. {count}
         </p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,7 +23,7 @@ function App () {
         </a>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
