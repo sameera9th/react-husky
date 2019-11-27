@@ -3,14 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const counts = 0;
+  const count = 0;
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. {counts}
+          Edit <code>src/App.js</code> and save to reload. {count}
         </p>
         <a
           className="App-link"
