@@ -4,29 +4,23 @@ module.exports = {
     es6: true,
     jest: true
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard'
-  ],
+  extends: ["prettier", "plugin:react/recommended", "standard"],
   globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly'
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly"
   },
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     },
     ecmaVersion: 2018,
-    sourceType: 'module'
+    sourceType: "module"
   },
   settings: {
     react: {
       version: "detect"
     }
   },
-  plugins: [
-    'react'
-  ],
-  rules: {
-  }
-}
+  plugins: ["react"],
+  rules: {}
+};
