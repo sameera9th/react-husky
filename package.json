@@ -49,12 +49,9 @@
   },
   "lint-staged": {
     "*.(js|html|css)": [
+      "eslint --fix",
       "prettier --write",
       "git add"
-    ],
-    ".js": [
-      "npm run lint:fix",
-      "npm run lint"
     ]
   },
   "prettify": "prettier src/*.js --write"
