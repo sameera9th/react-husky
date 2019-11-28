@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import Button from './components/button'
 
 function App () {
   const count = 0
@@ -12,6 +13,7 @@ function App () {
         <p>
           Edit <code>src/App.js</code> and save to reload. {count}
         </p>
+        <Button label="Click me please" />
 
         <a
           className="App-link"
